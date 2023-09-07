@@ -24,7 +24,7 @@ public class MainController extends HttpServlet {
 		System.out.println("main");
 		
 		//포워드
-		RequestDispatcher rd = request.getRequestDispatcher("절대경로 파일위치");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/main/index.jsp");
 		rd.forward(request, response);
 	}
 
