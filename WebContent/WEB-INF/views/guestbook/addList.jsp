@@ -25,8 +25,8 @@
 	<div id="wrap">
 
 		<!-- header -->
-		<jsp:include page="/WEB-INF/views/include/header.jsp"></jsp:include>
-		<!-- //header -->
+		<c:import url="/WEB-INF/views/include/header.jsp"></c:import>
+		<!--//header -->
 
 		<div id="nav">
 			<ul class="clearfix">
